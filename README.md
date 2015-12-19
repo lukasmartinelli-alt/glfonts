@@ -7,13 +7,13 @@
 Your current Mapbox GL Style JSON configuration for `glyphs` will look like this.
 
 ```javascript
-    "glyphs": "mapbox://fonts/morgenkaffee/{fontstack}/{range}.pbf",
+"glyphs": "mapbox://fonts/morgenkaffee/{fontstack}/{range}.pbf",
 ```
 
 In order to use the fonts without a Mapbox API key edit your Mapbox GL Style JSON and change the endpoint for `glyphs` to `http://glfonts.lukasmartinelli.ch/fonts/{fontstack}/{range}.pbf`.
 
 ```javascript
-    "glyphs": "http://glfonts.lukasmartinelli.ch/fonts/{fontstack}/{range}.pbf",
+"glyphs": "http://glfonts.lukasmartinelli.ch/fonts/{fontstack}/{range}.pbf",
 ```
 
 ## Supported Fonts
