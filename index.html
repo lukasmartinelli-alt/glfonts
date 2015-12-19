@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mapbox GL Free Fonts</title>
+    <title>Free Mapbox GL Fonts</title>
     <link href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" rel="stylesheet" type="text/css">
-    <link href="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.7.0/codemirror.css" rel="stylesheet">
     <style>
     body {
       font-size: 1.6em;
@@ -43,27 +42,25 @@
   <div class="container">
     <div class="row">
       <h1>
-        <span>Mapbox GL Free Fonts</span>
+        <span>Free Mapbox GL Fonts</span>
         <iframe src="https://ghbtns.com/github-btn.html?user=lukasmartinelli&repo=mapbox-gl-free-fonts&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
       </h1>
       <p>
-        Configuring fonts in Mapbox GL without using the Mapbox API is a pain and struggle.
-        No one should need to know how the fonts are packaged in order to use Mapbox GL standalone.
-        This project packages the most common free fonts with fontnik so you don't have to worry about SDL and PBFs.
+      <a href="https://www.mapbox.com/mapbox-gl-style-spec/#glyphs">Configuring fonts in Mapbox GL</a> without using the Mapbox API is a pain and struggle.
+        No one should need to know how the fonts are packaged in order to use Mapbox GL without Mapbox.
+        This project packages the most common free fonts with <a href="https://github.com/mapbox/fontnik">fontnik</a> so you don't have to worry about <a href="https://www.mapbox.com/blog/text-signed-distance-fields/">SDL</a> and <a href="https://github.com/mapbox/mapbox-gl-js/issues/830">gzipped PBFs</a>.
       </p>
 
       <h2>Configure Mapbox GL Style JSON</h2>
       <p>
         Your current Mapbox GL Style JSON configuration for <code>glyphs</code> will look like this.
       </p>
-      <pre><code>"glyphs": "mapbox://fonts/morgenkaffee/{fontstack}/{range}.pbf",
-      </code></pre>
+      <pre><code>"glyphs": "mapbox://fonts/morgenkaffee/{fontstack}/{range}.pbf",</code></pre>
       <p>
         In order to use the fonts without a Mapbox API key edit your Mapbox GL Style JSON
         and change the endpoint for <code>glyphs</code> to <code>http://glfonts.lukasmartinelli.ch/fonts/{fontstack}/{range}.pbf</code>.
       </p>
-      <pre><code>"glyphs": "http://glfonts.lukasmartinelli.ch/fonts/{fontstack}/{range}.pbf",
-      </code></pre>
+      <pre><code>"glyphs": "http://glfonts.lukasmartinelli.ch/fonts/{fontstack}/{range}.pbf",</code></pre>
       <h2>Supported Fonts</h2>
       <p>The following fonts that are available in Mapbox Studio are supported.</p>
       <ul>
