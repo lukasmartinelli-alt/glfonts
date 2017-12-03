@@ -1,5 +1,8 @@
 # Free Mapbox GL Fonts [![Code is public domain](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](http://choosealicense.com/licenses/unlicense/)
 
+> :warning: **Please migrate to [orangemug/font-glyphs](http://github.com/orangemug/font-glyphs/)**. This repository is no longer maintained by Lukas Martinelli.
+
+
 [Configuring fonts in Mapbox GL](https://www.mapbox.com/mapbox-gl-style-spec/#glyphs) without using the Mapbox API is a pain and struggle. No one should need to know how the fonts are packaged in order to use Mapbox GL without Mapbox. This project packages the most common free fonts with [fontnik](https://github.com/mapbox/fontnik) so you don't have to worry about [SDL](https://www.mapbox.com/blog/text-signed-distance-fields/) and [gzipped PBFs](https://github.com/mapbox/mapbox-gl-js/issues/830).
 
 ## Configure Mapbox GL Style JSON
